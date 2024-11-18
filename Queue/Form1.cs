@@ -39,6 +39,8 @@ namespace Queue
                 return;
             }
 
+            MessageBox.Show($"Dequeued element: {queue[front]}");
+
             front++;
             DisplayQueue();
         }
